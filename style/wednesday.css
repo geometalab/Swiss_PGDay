@@ -1,0 +1,73 @@
+.room {
+    margin: 5px;
+    min-width: 350px;
+    max-width: calc(100% / 3 - 10px);
+    flex-basis: calc(100% / 3 - 10px);
+}
+
+@media all and (min-width: 2552px){
+    body{
+        font-size: 1.5em;
+    }
+
+    .social-media {
+        display: block;
+        min-width: 350px;
+        margin: 5px;
+        max-width: calc(100% / 3 - 10px);
+        flex-basis: calc(100% / 3 - 10px);
+    }
+
+    .mediaHeader {
+        background-color: darkgray;
+        margin: 0;
+		font-size: 3.0em;
+    }
+
+    .room {
+        max-width: calc(100% / 3 - 10px);
+        flex-basis: calc(100% / 3 - 10px);
+    }
+
+    .footer{
+        position: fixed;
+    }
+}
+
+@media all and (max-width: 1472px){
+    .room {
+        max-width: calc(100% / 3 - 10px);
+        flex-basis: calc(100% / 3 - 10px);
+    }
+	    .social-media {
+        display: block;
+        min-width: 350px;
+        margin: 5px;
+        max-width: calc(100% / 3 - 10px);
+        flex-basis: calc(100% / 3 - 10px);
+    }
+}
+
+@media all and (max-width: 1112px){
+    .room {
+        max-width: calc(100% / 2 - 10px);
+        flex-basis: calc(100% / 2 - 10px);
+    }
+	    .social-media {
+        display: block;
+        min-width: 350px;
+        margin: 5px;
+        max-width: calc(100% / 2 - 10px);
+        flex-basis: calc(100% / 2 - 10px);
+    }
+}
+
+@media all and (max-width: 752px){
+    .room {
+        margin:0;
+        min-width: 100%;
+    }
+    .infos {
+        margin: 5px 0 20px;
+    }
+}

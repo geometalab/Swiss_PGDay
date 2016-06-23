@@ -1,0 +1,153 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: "Arial Narrow", "Arial", sans-serif;
+    font-stretch: condensed;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#main {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+
+.tile, .pause-tile, .tile-group-before-break {
+    margin-bottom: 5px;
+}
+
+.pause-tile, .tile table {
+    background-color: #dcddde;
+    min-width: 100%;
+    border-collapse: collapse;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+.tile table td {
+    padding: 5px;
+    border: solid 1px;
+	font-size: 17px;
+}
+
+.tile table th {
+    border: solid 1px;
+    background-color: #bfc0c1;
+	font-size: 18px;
+}
+
+.pause {
+    border: solid 1px;
+    margin: 0;
+    padding: 5px;
+}
+
+.infos {
+    width: 100%;
+    border: solid 1px;
+    margin: 5px 5px 5px;
+    background-color: #dcddde;
+    padding-left: 5px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+.infos p {
+    margin: 0;
+}
+
+#powerby {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.footerBox {
+    width: 99%;
+    margin: 5px 5px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.logoLinkBox {
+    display: flex;
+    padding: 15px 30px;
+    height: 40px;
+}
+
+.logoLinkBox img {
+    height: 40px;
+}
+
+#sogi img {
+    height: 70px;
+}
+
+.toplogoLinkBox {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+@media all and (min-width: 800px) {
+    .header {
+        display: inline-flex;
+        width: 100%;
+        padding: 0;
+        background-color: darkgray;
+    }
+
+    .nav-mobil {
+        display: none;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 42px;
+        margin-bottom: -16px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        background-color: darkgray;
+        text-decoration: none;
+        padding-top: 10px;
+        width: 100%;
+        z-index: 1;
+        -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    #logo-mob {
+        width: 15%;
+        height: 7%;
+    }
+	
+	#nav-desktop {
+		display: none;
+	}
+}

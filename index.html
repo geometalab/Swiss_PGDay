@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/stylesheet.css" />
+    <link rel="stylesheet" href="style/wednesday.css" />
+    <meta charset="UTF-8">
+    <title>Swiss PG Day</title>
+</head>
+<body onload="upDateSite()">
+<div id="container">
+    <div id="nav-desktop">
+        <header class="header">
+            <img src="img/128px-Postgresql_elephant.png" id="logo" />
+			<h2>Swiss PG Day</h2>
+        </header>
+    </div>
+    <div class="nav-mobil">
+        <header class="header">
+            <img src="img/128px-Postgresql_elephant.png" id="logo-mob">
+        </header>
+    </div>
+    <div id="contentLayer"></div>
+    <div id="content">
+        <main id="main">
+            <div class="room">
+                <h2>Technical Track - Raum 5.002</h2>
+                <div class="tile-group-before-break">
+                    <div class="tile">
+                        <table>
+                            <tr>
+                                <th colspan="3">Technical Track - Raum 5.002 Vormittag</th>
+                            </tr>
+                            <tr>
+                                <td>08:15 - 08:50</td>
+                                <td>Registration - bei der Cafeteria im Gebäude 1</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>08:50 - 09:00</td>
+                                <td>Begrüssung</td>
+                                <td>Stefan Keller (HSR)</td>
+                            </tr>
+							<tr>
+                                <td>09:00 - 09:50</td>
+                                <td>Fuzzy Suche in PostgreSQL</td>
+                                <td>Charles Clavadetscher</td>
+                            </tr>
+							<tr>
+                                <td>10:00 - 10:50</td>
+                                <td>Positioning a real open source database in your enterprise,
+									PostgreSQL as a central reporting hub</td>
+                                <td>Daniel Westermann</td>
+                            </tr>
+							<tr>
+                                <td>11:00 - 11:50</td>
+                                <td>PostgreSQL auf viele CPUs skalieren</td>
+                                <td>Hans-Jürgen Schönig</td>
+                            </tr>
+							<tr>
+                                <td>12:00 - 12:50</td>
+                                <td>Korpuslinguistik mit PostgreSQL</td>
+                                <td>Johannes Graën</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pause-tile">
+                    <p class="pause">12:50 - 14:00	Mittagessen - Location Mensa Gebäude 4</p>
+                </div>
+                <div class="tile-group-after-break">
+                    <div class="tile">
+                        <table>
+                            <tr>
+                                <th colspan="3">Technical Track - Raum 5.002 Nachmittag</th>
+                            </tr>
+                            <tr>
+                                <td>14:00 - 14:50</td>
+                                <td>PostGIS – Ein Überblick mit Tipps und Tricks</td>
+                                <td>Stefan Keller</td>
+                            </tr>
+                            <tr>
+                                <td>15:00 - 15:50</td>
+                                <td>Java 8 Date Time API mit PostgreSQL</td>
+                                <td>Philippe Marschall</td>
+                            </tr>
+                            <tr>
+                                <td>15:50 - 16:00</td>
+                                <td>Abschluss</td>
+                                <td>Stefan Keller (HSR)</td>
+                            </tr>
+							<tr>
+                                <td>16:00 -</td>
+                                <td>Apéro - Cafeteria im Gebäude 1</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="room">
+                <h2>Business Track - Raum 5.001</h2>
+                <div class="tile-group-before-break">
+                    <div class="tile">
+                        <table>
+                            <tr>
+                                <th colspan="3">Business Track - Raum 5.001 Vormittag</th>
+                            </tr>
+                            <tr>
+                                <td>08:15 - 08:50</td>
+                                <td>Registration - bei der Cafeteria im Gebäude 1</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>08:50 - 09:00</td>
+                                <td>Begrüssung - Raum 5.002</td>
+                                <td>Stefan Keller (HSR)</td>
+                            </tr>
+                            <tr>
+                                <td>09:00 - 09:50</td>
+                                <td>Erfahrungen aus 15 Jahren Community-Support in Mailinglisten, Foren und Facebook</td>
+                                <td>Andreas Kretschmer</td>
+                            </tr>
+                            <tr>
+                                <td>10:00 - 10:50</td>
+                                <td>Moderne Datenbankentwicklung mit PostgreSQL – Tools & Konzepte</td>
+                                <td>Thomas Koch</td>
+                            </tr>
+							<tr>
+                                <td>11:00 - 11:50</td>
+                                <td>Postbooks: free and open source accounting/ERP with PostgreSQL</td>
+                                <td>Daniel Pocock</td>
+                            </tr>
+							<tr>
+                                <td>12:00 - 12:50</td>
+                                <td>Daten auf mehreren Systemen</td>
+                                <td>Harald Armin Massa</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pause-tile">
+                    <p class="pause">12:50 - 14:00	Mittagessen - Location Mensa Gebäude 4</p>
+                </div>
+                <div class="tile-group-after-break">
+                    <div class="tile">
+                        <table>
+                            <tr>
+                                <th colspan="3">Business Track - Raum 5.001 Nachmittag</th>
+                            </tr>
+                            <tr>
+                                <td>14:00 - 14:50</td>
+                                <td>Postgres-Clients</td>
+                                <td>Stephan Wagner</td>
+                            </tr>
+                            <tr>
+                                <td>15:00 - 15:50</td>
+                                <td>Von Oracle nach PostgreSQL migrieren</td>
+                                <td>Daniel Westermann</td>
+                            </tr>
+                            <tr>
+                                <td>15:50 - 16:00</td>
+                                <td>Abschluss</td>
+                                <td>Stefan Keller (HSR)</td>
+                            </tr>
+                            <tr>
+                                <td>16:00 -</td>
+                                <td>Apéro - Cafeteria im Gebäude 1</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+			<div class="room">
+				<div class="social-media">
+					
+					<a class="twitter-timeline" href="https://twitter.com/search?q=%40swiss_pgday" data-widget-id="745569915797647361">Tweets über @swiss_pgday </a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+            </div>
+
+        </main>
+        <div class="footerBox">
+            
+                <div class="footer">
+
+                <div id="ch_open" class="logoLinkBox">
+                            <span class="logoLink">
+                            <a href=""><img src="img/ch-open-logo.gif" alt="ch-open-logo" /> </a>
+                            </span>
+                </div>
+                <div id="dbi_service" class="logoLinkBox">
+                            <span class="logoLink">
+                            <a href=""><img src="img/dbi-services.png" alt="DBI Service" /> </a>
+                            </span>
+                </div>
+				<div id="swisspug" class="logoLinkBox">
+                            <span class="logoLink">
+                            <a href=""><img src="img/hsr.png" alt="HSR" /> </a>
+                            </span>
+                </div>
+				<div id="puzzle" class="logoLinkBox">
+                            <span class="logoLink">
+                            <a href=""><img src="img/puzzle.PNG" alt="Puzzle CH" /> </a>
+                            </span>
+                </div>
+				<div id="swisspug" class="logoLinkBox">
+                            <span class="logoLink">
+                            <a href=""><img src="img/Swisspug-logo.png" alt="Swiss PUG" /> </a>
+                            </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="libs/script/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="script/menu.js" ></script>
+</html>
